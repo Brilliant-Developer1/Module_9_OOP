@@ -70,7 +70,7 @@ class Driver(User):
         self.wallet = 0
 
     def display_profile(self):
-        print(f'Driver with name: {self.name} and email: {self.email}')
+        print(f'Driver with name: {self.name} and email : {self.email}')
 
     def accept_ride(self, ride):
         ride.set_driver(self)
